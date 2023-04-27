@@ -19,7 +19,7 @@ text_entry.pack()
 
 
 def print_text():
-    # Get text from text entry or clipboard
+    
     if text_entry.get() != "":
         text = text_entry.get()
     else:
@@ -57,5 +57,5 @@ def on_focus_in(event):
 
 window.bind("<FocusIn>", on_focus_in)
 
-# Run the window
+
 window.mainloop()
