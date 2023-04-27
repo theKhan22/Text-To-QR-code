@@ -6,9 +6,10 @@ This is a simple Python script that allows users to convert plain text into a QR
 
 1. Clone or download the repository to your local machine.
 2. Install the qrcode library using pip: `pip install qrcode`
-3. Open the script in your Python IDE or text editor.
-4. Run the script.
-5. The QR code will be generated and saved as a PNG image in the same directory as the script.
+3. Install the opencv library using pip: `pip install opencv-python`
+4. Open the script in your Python IDE or text editor.
+5. Run the script.
+6. The QR code will be generated and saved as a PNG image in the same directory as the script.
 
 ## Dependencies
 
